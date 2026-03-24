@@ -1,5 +1,81 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-playfair: var(--font-playfair);
+  --font-inter: var(--font-inter);
+}
+
+@theme {
+  --color-navy: #0f1f3d;
+  --color-navy-light: #1a3260;
+  --color-cream: #f5f0e8;
+  --color-cream-dark: #ede5d4;
+  --color-slate: #6b7a8d;
+  --color-slate-light: #9aaab8;
+  --color-gold: #b8975a;
+  --color-gold-light: #d4b07a;
+
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Museum-grid utility: generous whitespace */
+.museum-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+  .museum-section {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+
+/* Thin rule ornament */
+.ornament-rule {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ornament-rule::before,
+.ornament-rule::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-gold);
+  opacity: 0.5;
+}
+
+/* Smooth image hover */
+.img-hover {
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    filter 0.6s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
