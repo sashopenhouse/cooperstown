@@ -23,7 +23,7 @@ const consultationSteps = [
     step: "04",
     title: "Artisan Installation",
     description:
-      "Our certified in-house team installs your windows and doors with the precision and care your historic home deserves.",
+      "Our certified in-house team installs your windows and doors with the precision and care your home deserves.",
   },
 ];
 

@@ -8,7 +8,7 @@ const expertiseItems = [
           d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
       </svg>
     ),
-    title: "We Understand Historic Homes",
+    title: "We Understand Your Home",
     description:
       "Older homes weren't built to standard dimensions. We measure every opening individually, accounting for decades of settling, out-of-square frames, and original plaster reveals — then custom-make each window and door to fit perfectly.",
   },
@@ -43,7 +43,7 @@ const expertiseItems = [
     ),
     title: "The Same Team, Start to Finish",
     description:
-      "The specialist who visits your home is part of the same in-house team that installs your windows. No handoffs to subcontractors, no surprises — just one accountable team that takes pride in every historic home they touch.",
+      "The specialist who visits your home is part of the same in-house team that installs your windows. No handoffs to subcontractors, no surprises — just one accountable team that takes pride in every project they complete.",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function VillageBoard() {
           <div className="flex items-center gap-4 mb-6">
             <div className="h-px w-8 bg-[#b8975a]" />
             <span className="text-[#b8975a] text-xs tracking-[0.35em] uppercase font-light">
-              Historic Home Expertise
+              Our Expertise
             </span>
           </div>
           <h2
@@ -137,7 +137,7 @@ export default function VillageBoard() {
                 35+
               </p>
               <p className="text-[#0f1f3d]/80 text-xs tracking-widest uppercase font-semibold">
-                Years on Historic Homes
+                Years of Experience
               </p>
             </div>
 
@@ -166,7 +166,7 @@ export default function VillageBoard() {
             </div>
             <p className="text-[#f5f0e8]/50 text-sm font-light leading-relaxed max-w-2xl">
               <span className="text-[#f5f0e8]/80 font-medium">
-                Every historic home gets a dedicated in-home consultation.
+                Every project starts with a dedicated in-home consultation.
               </span>{" "}
               We visit your property, assess the existing windows and doors in
               context, and recommend replacements that respect what makes your

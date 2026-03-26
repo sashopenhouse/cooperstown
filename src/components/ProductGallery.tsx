@@ -14,7 +14,7 @@ const products = [
       "Lifetime transferable warranty on products & labor",
     ],
     image: "/images/IMG_1056.jpg",
-    imageAlt: "Large window wall on the side of a historic home replaced by New York Sash",
+    imageAlt: "Large window wall on a beautiful home replaced by New York Sash",
     accent: "Windows",
   },
   {
@@ -75,8 +75,7 @@ export default function ProductGallery() {
           <p className="text-[#6b7a8d] text-lg font-light leading-relaxed">
             Every New York Sash product is custom-made, ENERGY STAR®
             certified, and backed by a lifetime warranty — delivering
-            modern performance in profiles that honor the character of
-            Cooperstown&apos;s historic homes.
+            modern performance with timeless visual appeal.
           </p>
         </div>
 

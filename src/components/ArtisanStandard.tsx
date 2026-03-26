@@ -49,7 +49,7 @@ const standards = [
     title: "35+ Years of Mastery",
     subtitle: "Serving Central New York Since 1989",
     description:
-      "New York Sash has been transforming Central New York homes since 1989 — over 15,000 projects and counting. Our institutional knowledge of local architecture, Otsego County's climate, and the unique demands of historic homes is unmatched in the region."
+      "New York Sash has been transforming Central New York homes since 1989 — over 15,000 projects and counting. Our institutional knowledge of local architecture, Otsego County's climate, and the unique demands of custom residential projects is unmatched in the region."
   },
   {
     icon: (
