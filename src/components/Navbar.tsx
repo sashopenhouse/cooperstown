@@ -46,7 +46,7 @@ export default function Navbar() {
                 Cooperstown
               </span>
               <span className="text-[#f5f0e8]/60 text-[9px] tracking-[0.2em] uppercase font-light">
-                Historic District
+                Central New York
               </span>
             </div>
           </Link>

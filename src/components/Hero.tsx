@@ -33,7 +33,7 @@ export default function Hero() {
           <div className="flex items-center gap-4">
             <div className="h-px w-10 bg-[#b8975a]" />
             <span className="text-[#b8975a] text-xs tracking-[0.35em] uppercase font-light">
-              Cooperstown, NY · 13326
+              Cooperstown, New York
             </span>
             <div className="h-px w-10 bg-[#b8975a]" />
           </div>
@@ -51,8 +51,8 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-[#f5f0e8]/75 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto mb-14 tracking-wide">
-          Architectural-grade window and door replacements designed for
-          13326&apos;s legacy homes.
+          Architectural-grade window and door replacements crafted for
+          Cooperstown&apos;s historic homes — you&apos;re in expert hands.
         </p>
 
         {/* CTA Buttons */}

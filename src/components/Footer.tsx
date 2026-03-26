@@ -41,7 +41,7 @@ export default function Footer() {
                 className="h-12 w-auto brightness-0 invert mb-3"
               />
               <p className="text-[#b8975a] text-[9px] tracking-[0.3em] uppercase font-light">
-                Cooperstown Historic District Campaign
+                Cooperstown Historic Homes
               </p>
             </div>
             <p className="text-[#f5f0e8]/40 text-sm font-light leading-relaxed mb-8 max-w-xs">

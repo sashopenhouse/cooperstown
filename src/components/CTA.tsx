@@ -5,7 +5,7 @@ const consultationSteps = [
     step: "01",
     title: "Historic Assessment",
     description:
-      "We visit your home and document existing window and door conditions, architectural style, and historic district requirements.",
+      "We visit your home and document existing window and door conditions, architectural style, and the character details that make it irreplaceable.",
   },
   {
     step: "02",

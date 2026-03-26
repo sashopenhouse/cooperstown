@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "New York Sash brings 35+ years of Central New York craftsmanship to Cooperstown's historic homes. ENERGY STAR® certified, custom-made to fit, and installed by our own in-house team — never subcontractors.",
   keywords:
-    "New York Sash Cooperstown, historic home windows 13326, period correct windows Cooperstown NY, replacement windows Otsego County, New York Sash historic homes, custom windows Central New York",
+    "New York Sash Cooperstown, historic home windows, period correct windows Cooperstown NY, replacement windows Otsego County, New York Sash historic homes, custom windows Central New York",
   openGraph: {
     title: "New York Sash | Historic Window & Door Replacements in Cooperstown, NY",
     description:
