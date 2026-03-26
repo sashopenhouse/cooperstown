@@ -51,8 +51,8 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-[#f5f0e8]/75 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto mb-14 tracking-wide">
-          Architectural-grade window and door replacements crafted for
-          Cooperstown&apos;s historic homes — you&apos;re in expert hands.
+          Architectural-grade window and door replacements designed to preserve
+          Cooperstown&apos;s timeless character — you&apos;re in expert hands.
         </p>
 
         {/* CTA Buttons */}
