@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NysLogo from "./NysLogo";
+import TrackedLink from "./TrackedLink";
 
 export default function Hero() {
   return (
@@ -57,11 +58,14 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
+          <TrackedLink
             href="https://www.newyorksash.com/quote"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 bg-[#b8975a] hover:bg-[#d4b07a] text-[#0f1f3d] font-semibold text-sm tracking-widest uppercase px-10 py-4 transition-all duration-300 hover:shadow-xl hover:shadow-[#b8975a]/30 hover:-translate-y-0.5"
+            eventName="cta_click"
+            eventCategory="hero"
+            eventLabel="Schedule a Consultation"
           >
             Schedule a Consultation
             <svg
@@ -77,13 +81,16 @@ export default function Hero() {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
-          <a
+          </TrackedLink>
+          <TrackedLink
             href="#products"
             className="inline-flex items-center gap-3 border border-[#f5f0e8]/30 hover:border-[#b8975a] text-[#f5f0e8]/80 hover:text-[#b8975a] font-light text-sm tracking-widest uppercase px-10 py-4 transition-all duration-300"
+            eventName="cta_click"
+            eventCategory="hero"
+            eventLabel="View Our Work"
           >
             View Our Work
-          </a>
+          </TrackedLink>
         </div>
 
         {/* Trust badges */}

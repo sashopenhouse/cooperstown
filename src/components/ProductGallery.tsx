@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TrackedLink from "./TrackedLink";
 
 const products = [
   {
@@ -16,6 +17,7 @@ const products = [
     image: "/images/IMG_1056.jpg",
     imageAlt: "Large window wall on a beautiful home replaced by New York Sash",
     accent: "Windows",
+    serviceUrl: "https://www.newyorksash.com/windows",
   },
   {
     id: 2,
@@ -32,6 +34,7 @@ const products = [
     image: "/images/09488CE2-CED6-4A6E-95C6-9AE79E81790F.jpg",
     imageAlt: "New York Sash simulated divided lite window detail",
     accent: "Glazing",
+    serviceUrl: "https://www.newyorksash.com/windows",
   },
   {
     id: 3,
@@ -48,6 +51,7 @@ const products = [
     image: "/images/DB159592-05A9-47B8-8D8E-EF2DC7D3A365.jpg",
     imageAlt: "New York Sash custom historic finish and door detail",
     accent: "Finishes",
+    serviceUrl: "https://www.newyorksash.com/doors",
   },
 ];
 
@@ -138,9 +142,14 @@ export default function ProductGallery() {
                 </ul>
 
                 {/* Learn more link */}
-                <a
-                  href="#cta"
+                <TrackedLink
+                  href={product.serviceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-8 flex items-center gap-2 text-[#b8975a] text-xs tracking-widest uppercase font-medium group-hover:gap-3 transition-all duration-300"
+                  eventName="outbound_link_click"
+                  eventCategory="product_gallery"
+                  eventLabel={`Request Samples - ${product.title}`}
                 >
                   Request Samples
                   <svg
@@ -156,7 +165,7 @@ export default function ProductGallery() {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </a>
+                </TrackedLink>
               </div>
             </article>
           ))}
@@ -176,12 +185,17 @@ export default function ProductGallery() {
               architecture and recommend the exact match.
             </p>
           </div>
-          <a
-            href="#cta"
+          <TrackedLink
+            href="https://www.newyorksash.com/quote"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex-shrink-0 inline-flex items-center gap-3 border border-[#b8975a] text-[#b8975a] hover:bg-[#b8975a] hover:text-[#0f1f3d] font-semibold text-sm tracking-widest uppercase px-8 py-4 transition-all duration-300"
+            eventName="cta_click"
+            eventCategory="product_gallery"
+            eventLabel="Get a Free Assessment"
           >
             Get a Free Assessment
-          </a>
+          </TrackedLink>
         </div>
       </div>
     </section>

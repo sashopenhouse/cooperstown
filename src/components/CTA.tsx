@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TrackedLink from "./TrackedLink";
 
 const consultationSteps = [
   {
@@ -131,9 +132,12 @@ export default function CTA() {
 
             {/* Contact options */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-              <a
-              href="tel:+13156247344"
+              <TrackedLink
+                href="tel:+13156247344"
                 className="group w-full sm:w-auto flex items-center justify-center gap-3 bg-[#b8975a] hover:bg-[#d4b07a] text-[#0f1f3d] font-semibold text-sm tracking-widest uppercase px-10 py-5 transition-all duration-300 hover:shadow-xl hover:shadow-[#b8975a]/30 hover:-translate-y-0.5"
+                eventName="phone_click"
+                eventCategory="cta"
+                eventLabel="Call for Consultation"
               >
                 <svg
                   className="w-4 h-4"
@@ -149,12 +153,15 @@ export default function CTA() {
                   />
                 </svg>
                 (315) 624-7344
-              </a>
-              <a
+              </TrackedLink>
+              <TrackedLink
                 href="https://www.newyorksash.com/quote"
-              target="_blank"
-              rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-3 border border-[#f5f0e8]/20 hover:border-[#b8975a] text-[#f5f0e8]/70 hover:text-[#b8975a] font-light text-sm tracking-widest uppercase px-10 py-5 transition-all duration-300"
+                eventName="cta_click"
+                eventCategory="cta"
+                eventLabel="Free Estimate Online"
               >
                 <svg
                   className="w-4 h-4"
@@ -170,7 +177,7 @@ export default function CTA() {
                   />
                 </svg>
                 Free Estimate Online
-              </a>
+              </TrackedLink>
             </div>
 
             {/* Trust signals */}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TrackedLink from "./TrackedLink";
 
 const footerLinks = {
   Products: [
@@ -52,9 +53,12 @@ export default function Footer() {
 
             {/* Contact info */}
             <div className="flex flex-col gap-3">
-              <a
+              <TrackedLink
                 href="tel:+13156247344"
                 className="flex items-center gap-3 text-[#f5f0e8]/60 hover:text-[#b8975a] text-sm transition-colors duration-300"
+                eventName="phone_click"
+                eventCategory="footer"
+                eventLabel="Footer Phone"
               >
                 <svg
                   className="w-4 h-4 text-[#b8975a] flex-shrink-0"
@@ -70,12 +74,15 @@ export default function Footer() {
                   />
                 </svg>
                 (315) 624-7344
-              </a>
-              <a
+              </TrackedLink>
+              <TrackedLink
                 href="https://www.newyorksash.com/quote"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-[#f5f0e8]/60 hover:text-[#b8975a] text-sm transition-colors duration-300"
+                eventName="cta_click"
+                eventCategory="footer"
+                eventLabel="Free Estimate"
               >
                 <svg
                   className="w-4 h-4 text-[#b8975a] flex-shrink-0"
@@ -91,7 +98,7 @@ export default function Footer() {
                   />
                 </svg>
                 Free Estimate at newyorksash.com
-              </a>
+              </TrackedLink>
               <div className="flex items-start gap-3 text-[#f5f0e8]/60 text-sm">
                 <svg
                   className="w-4 h-4 text-[#b8975a] flex-shrink-0 mt-0.5"
@@ -130,14 +137,17 @@ export default function Footer() {
               <ul className="flex flex-col gap-3">
                 {links.map((link) => (
                   <li key={link.label}>
-                    <a
+                    <TrackedLink
                       href={link.href}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[#f5f0e8]/40 hover:text-[#b8975a] text-sm font-light transition-colors duration-300"
+                      eventName="outbound_link_click"
+                      eventCategory="footer"
+                      eventLabel={link.label}
                     >
                       {link.label}
-                    </a>
+                    </TrackedLink>
                   </li>
                 ))}
               </ul>
@@ -158,15 +168,18 @@ export default function Footer() {
               { label: "Terms", href: "https://www.newyorksash.com/terms" },
               { label: "Accessibility", href: "https://www.newyorksash.com/accessibility" },
             ].map((item) => (
-                <a
+                <TrackedLink
                   key={item.label}
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#f5f0e8]/25 hover:text-[#b8975a] text-xs font-light transition-colors duration-300"
+                  eventName="outbound_link_click"
+                  eventCategory="footer"
+                  eventLabel={item.label}
                 >
                   {item.label}
-                </a>
+                </TrackedLink>
               )
             )}
           </div>

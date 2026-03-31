@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import Image from "next/image";
+import TrackedLink from "./TrackedLink";
 
 const navLinks = [
   { label: "Products", href: "#products" },
@@ -32,7 +32,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="https://www.newyorksash.com" className="flex items-center gap-3 group" target="_blank" rel="noopener noreferrer">
+          <TrackedLink
+            href="https://www.newyorksash.com"
+            className="flex items-center gap-3 group"
+            target="_blank"
+            rel="noopener noreferrer"
+            eventName="outbound_link_click"
+            eventCategory="navbar"
+            eventLabel="Logo"
+          >
             <Image
               src="https://www.newyorksash.com/assets/NYLOGO-copy_1759006724430-BHTfyIKn.png"
               alt="New York Sash"
@@ -49,7 +57,7 @@ export default function Navbar() {
                 Central New York
               </span>
             </div>
-          </Link>
+          </TrackedLink>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
@@ -66,9 +74,12 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <a
+            <TrackedLink
               href="tel:+13156247344"
               className="flex items-center gap-2 bg-[#b8975a] hover:bg-[#d4b07a] text-[#0f1f3d] text-sm font-semibold tracking-widest uppercase px-6 py-3 transition-all duration-300 hover:shadow-lg hover:shadow-[#b8975a]/30"
+              eventName="phone_click"
+              eventCategory="navbar"
+              eventLabel="Call Now"
             >
               <svg
                 className="w-4 h-4"
@@ -84,7 +95,7 @@ export default function Navbar() {
                 />
               </svg>
               Call Now
-            </a>
+            </TrackedLink>
           </div>
 
           {/* Mobile Hamburger */}
@@ -123,9 +134,12 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
+          <TrackedLink
             href="tel:+16075550100"
             className="flex items-center justify-center gap-2 bg-[#b8975a] text-[#0f1f3d] text-sm font-semibold tracking-widest uppercase px-6 py-3 mt-2"
+            eventName="phone_click"
+            eventCategory="navbar"
+            eventLabel="Call Now (Mobile)"
           >
             <svg
               className="w-4 h-4"
@@ -141,7 +155,7 @@ export default function Navbar() {
               />
             </svg>
             (315) 624-7344
-          </a>
+          </TrackedLink>
         </nav>
       </div>
     </header>
