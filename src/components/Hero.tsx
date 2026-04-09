@@ -1,5 +1,4 @@
 import Image from "next/image";
-import NysLogo from "./NysLogo";
 import TrackedLink from "./TrackedLink";
 
 export default function Hero() {
@@ -28,32 +27,19 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-12 text-center">
-        {/* NYS Brand lockup */}
-        <div className="flex flex-col items-center gap-4 mb-10">
-          <NysLogo className="h-10 w-auto opacity-90" />
-          <div className="flex items-center gap-4">
-            <div className="h-px w-10 bg-[#b8975a]" />
-            <span className="text-[#b8975a] text-xs tracking-[0.35em] uppercase font-light">
-              Cooperstown, New York
-            </span>
-            <div className="h-px w-10 bg-[#b8975a]" />
-          </div>
-        </div>
-
         {/* Main Headline */}
         <h1
           className="text-[#f5f0e8] text-4xl md:text-6xl lg:text-7xl font-semibold leading-[1.1] mb-8"
           style={{ fontFamily: "var(--font-playfair)" }}
         >
-          Preserving Cooperstown&apos;s
+          Cooperstown&apos;s Choice for
           <br />
-          <em className="text-[#b8975a] font-normal">Historic Character.</em>
+          <em className="text-[#b8975a] font-normal">Windows, Doors &amp; Bathrooms.</em>
         </h1>
 
         {/* Subheadline */}
         <p className="text-[#f5f0e8]/75 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto mb-14 tracking-wide">
-          Architectural-grade window and door replacements designed to preserve
-          Cooperstown&apos;s timeless character — you&apos;re in expert hands.
+          Serving Cooperstown and The Leatherstocking Region.
         </p>
 
         {/* CTA Buttons */}

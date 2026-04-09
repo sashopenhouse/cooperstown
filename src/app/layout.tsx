@@ -19,12 +19,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "New York Sash | Historic Window & Door Replacements in Cooperstown, NY",
+  title: "New York Sash | Custom Window & Door Replacements in Cooperstown & the Leatherstocking Region, NY",
   description:
-    "New York Sash brings 35+ years of Central New York craftsmanship to Cooperstown. ENERGY STAR® certified, custom-made to fit, and installed by our own in-house team — never subcontractors.",
+    "New York Sash brings 35+ years of craftsmanship to Cooperstown and the Leatherstocking Region. ENERGY STAR® certified, custom-made to fit, and installed by our own in-house team — never subcontractors.",
   metadataBase: new URL("https://www.newyorksash-cooperstown.com"),
   keywords:
-    "New York Sash Cooperstown, custom replacement windows, window replacement Cooperstown NY, replacement windows Otsego County, New York Sash, custom windows Central New York",
+    "New York Sash Cooperstown, window replacement Cooperstown NY, Leatherstocking Region window replacement, custom replacement windows, replacement windows Otsego County, New York Sash, custom windows Central New York",
   alternates: {
     canonical: "/",
   },
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "New York Sash | Historic Window & Door Replacements in Cooperstown, NY",
+    title: "New York Sash | Custom Window & Door Replacements in Cooperstown & the Leatherstocking Region, NY",
     description:
-      "Preserving Cooperstown's Historic Character. Architectural-grade window and door replacements by New York Sash — serving Central New York since 1989.",
+      "Preserving Cooperstown and the Leatherstocking Region's original character. Architectural-grade window and door replacements by New York Sash — serving Central New York since 1989.",
     type: "website",
     url: "https://www.newyorksash-cooperstown.com",
-    siteName: "New York Sash Cooperstown",
+    siteName: "New York Sash | Cooperstown & the Leatherstocking Region",
     locale: "en_US",
     images: [
       {
@@ -58,10 +58,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "New York Sash | Historic Window & Door Replacements in Cooperstown, NY",
+    title: "New York Sash | Custom Window & Door Replacements in Cooperstown & the Leatherstocking Region, NY",
     description:
-      "Preserving Cooperstown's Historic Character with architectural-grade window and door replacements.",
+      "Preserving Cooperstown and the Leatherstocking Region's original character with architectural-grade window and door replacements.",
     images: ["/images/IMG_1049.jpg"],
+  },
+  icons: {
+    icon: "/nys-favicon.png",
+    shortcut: "/nys-favicon.png",
+    apple: "/nys-favicon.png",
   },
 };
 

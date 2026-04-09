@@ -39,7 +39,7 @@ export default function Testimonials() {
             className="text-[#0f1f3d] text-3xl md:text-4xl font-semibold"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Trusted by Cooperstown&apos;s
+            Trusted by Cooperstown &amp; The Leatherstocking Region&apos;s
             <em className="font-normal text-[#6b7a8d]"> Finest Homes.</em>
           </h2>
         </div>

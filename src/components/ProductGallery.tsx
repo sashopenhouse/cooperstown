@@ -39,9 +39,9 @@ const products = [
   {
     id: 3,
     category: "Finishes",
-    title: "Custom Historic Finishes",
+    title: "Custom Architectural Finishes",
     description:
-      "New York Sash entry and patio doors are individually customized to your home’s exact measurements. Choose from Signet, Embarq, or Heritage fiberglass lines — or Legacy Steel — with decorative glass, stain finishes, and multi-point locking systems built for Cooperstown’s winters.",
+      "New York Sash entry and patio doors are individually customized to your home's exact measurements. Choose from Signet, Embarq, or Heritage fiberglass lines — or Legacy Steel — with decorative glass, stain finishes, and multi-point locking systems built for Cooperstown and the Leatherstocking Region's winters.",
     features: [
       "Diamond Kote® factory finish — 30-year no-fade warranty",
       "Signet, Embarq & Heritage fiberglass door lines",
@@ -49,7 +49,7 @@ const products = [
       "Fully transferable lifetime warranty",
     ],
     image: "/images/DB159592-05A9-47B8-8D8E-EF2DC7D3A365.jpg",
-    imageAlt: "New York Sash custom historic finish and door detail",
+    imageAlt: "New York Sash custom architectural finish and door detail",
     accent: "Finishes",
     serviceUrl: "https://www.newyorksash.com/doors",
   },
@@ -74,7 +74,7 @@ export default function ProductGallery() {
           >
             Crafted for
             <br />
-            <em className="font-normal text-[#6b7a8d]">Historic Integrity.</em>
+            <em className="font-normal text-[#6b7a8d]">Lasting Integrity.</em>
           </h2>
           <p className="text-[#6b7a8d] text-lg font-light leading-relaxed">
             Every New York Sash product is custom-made, ENERGY STAR®
@@ -181,7 +181,7 @@ export default function ProductGallery() {
               Not sure which profile fits your home?
             </p>
             <p className="text-[#f5f0e8]/50 font-light text-sm">
-              Our historic design specialists will analyze your home&apos;s
+              Our design specialists will analyze your home&apos;s
               architecture and recommend the exact match.
             </p>
           </div>

@@ -21,7 +21,7 @@ const expertiseItems = [
     ),
     title: "Preserving Street-Side Character",
     description:
-      "The exterior appearance of your home is what makes Cooperstown, Cooperstown. Our profiles are selected to match the proportions and sight lines of original windows — so the character of the street stays intact.",
+      "The exterior appearance of your home is part of what defines Cooperstown and the Leatherstocking Region. Our profiles are selected to match the proportions and sight lines of original windows — so the character of the street stays intact.",
   },
   {
     icon: (
@@ -30,7 +30,7 @@ const expertiseItems = [
           d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: "Modern Performance, Historic Look",
+    title: "Modern Performance, Original Look",
     description:
       "You shouldn't have to choose between comfort and character. Our windows deliver ENERGY STAR® performance — LowE glass, Argon fill, and Duralite® Warm Edge Spacers — wrapped in profiles that look like they've always been there.",
   },
@@ -82,9 +82,9 @@ export default function VillageBoard() {
             <em className="font-normal text-[#b8975a]">That Have a Story.</em>
           </h2>
           <p className="text-[#f5f0e8]/60 text-lg font-light leading-relaxed">
-            Cooperstown&apos;s homes aren&apos;t just old — they&apos;re
-            irreplaceable. New York Sash has spent 35+ years working on exactly
-            these kinds of properties across Central New York. We know what it
+            Cooperstown and the Leatherstocking Region&apos;s homes aren&apos;t
+            just old — they&apos;re irreplaceable. New York Sash has spent 35+
+            years working on exactly these kinds of properties. We know what it
             takes to replace windows and doors in a way that honors the home
             rather than compromising it.
           </p>

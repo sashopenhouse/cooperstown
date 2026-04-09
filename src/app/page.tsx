@@ -17,7 +17,7 @@ export default function Home() {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "New York Sash Cooperstown",
+        name: "New York Sash | Cooperstown & the Leatherstocking Region",
         inLanguage: "en-US",
         publisher: {
           "@id": `${siteUrl}/#localbusiness`,
@@ -27,9 +27,9 @@ export default function Home() {
         "@type": "WebPage",
         "@id": `${siteUrl}/#webpage`,
         url: siteUrl,
-        name: "New York Sash | Historic Window & Door Replacements in Cooperstown, NY",
+        name: "New York Sash | Custom Window & Door Replacements in Cooperstown & the Leatherstocking Region, NY",
         description:
-          "New York Sash brings 35+ years of Central New York craftsmanship to Cooperstown. ENERGY STAR® certified, custom-made to fit, and installed by our own in-house team — never subcontractors.",
+          "New York Sash brings 35+ years of craftsmanship to Cooperstown and the Leatherstocking Region. ENERGY STAR® certified, custom-made to fit, and installed by our own in-house team — never subcontractors.",
         isPartOf: {
           "@id": `${siteUrl}/#website`,
         },
@@ -95,6 +95,10 @@ export default function Home() {
         ],
         areaServed: [
           {
+            "@type": "AdministrativeArea",
+            name: "The Leatherstocking Region",
+          },
+          {
             "@type": "City",
             name: "Cooperstown",
           },
@@ -144,7 +148,7 @@ export default function Home() {
       {
         "@type": "Service",
         "@id": `${siteUrl}/#services`,
-        name: "Historic window and door replacement",
+        name: "Custom window and door replacement",
         url: `${siteUrl}/#products`,
         provider: {
           "@id": `${siteUrl}/#localbusiness`,

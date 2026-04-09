@@ -54,7 +54,7 @@ export default function Navbar() {
                 Cooperstown
               </span>
               <span className="text-[#f5f0e8]/60 text-[9px] tracking-[0.2em] uppercase font-light">
-                Central New York
+                The Leatherstocking Region
               </span>
             </div>
           </TrackedLink>

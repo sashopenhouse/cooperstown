@@ -4,7 +4,7 @@ import TrackedLink from "./TrackedLink";
 const consultationSteps = [
   {
     step: "01",
-    title: "Historic Assessment",
+    title: "Home Assessment",
     description:
       "We visit your home and document existing window and door conditions, architectural style, and the character details that make it irreplaceable.",
   },
@@ -117,15 +117,15 @@ export default function CTA() {
               className="text-[#f5f0e8] text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Schedule a Historic
+              Schedule Your
               <br />
               <em className="text-[#b8975a] font-normal">
-                Design Consultation.
+                Free Consultation.
               </em>
             </h2>
 
             <p className="text-[#f5f0e8]/60 text-lg font-light leading-relaxed mb-12 max-w-xl mx-auto">
-              Meet with our historic preservation specialists at your home.
+              Meet with our design specialists at your home.
               No obligation. No pressure. Just expert guidance on preserving
               what makes your property irreplaceable.
             </p>

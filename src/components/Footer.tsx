@@ -46,8 +46,9 @@ export default function Footer() {
               </p>
             </div>
             <p className="text-[#f5f0e8]/40 text-sm font-light leading-relaxed mb-8 max-w-xs">
-              New York Sash brings 35+ years of Central New York craftsmanship
-              to Cooperstown&apos;s legacy homes. ENERGY STAR® certified,
+              New York Sash brings 35+ years of craftsmanship to Cooperstown
+              and the Leatherstocking Region&apos;s legacy homes. ENERGY STAR®
+              certified,
               custom-made to fit, and backed by a lifetime warranty.
             </p>
 

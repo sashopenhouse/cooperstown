@@ -3,7 +3,7 @@ import Image from "next/image";
 const milestones = [
   { year: "1989", event: "Founded in Central New York" },
   { year: "1995", event: "ENERGY STAR® partner certification" },
-  { year: "2005", event: "First Cooperstown historic project" },
+  { year: "2005", event: "First Cooperstown-area legacy project" },
   { year: "2015", event: "10,000th project completed" },
   { year: "2026", event: "15,000+ homes transformed" },
 ];
@@ -28,7 +28,7 @@ const standards = [
     title: "In-House Certified Installers",
     subtitle: "No Subcontractors. Ever.",
     description:
-      "Every New York Sash installer is a direct employee — factory-trained, licensed, and insured. We never use subcontractors, ensuring the same accountability and craftsmanship on every Cooperstown project that has built our 4.9★ reputation since 1989.",
+      "Every New York Sash installer is a direct employee — factory-trained, licensed, and insured. We never use subcontractors, ensuring the same accountability and craftsmanship on every Cooperstown and Leatherstocking Region project that has built our 4.9★ reputation since 1989.",
   },
   {
     icon: (
@@ -47,7 +47,7 @@ const standards = [
       </svg>
     ),
     title: "35+ Years of Mastery",
-    subtitle: "Serving Central New York Since 1989",
+    subtitle: "Serving Cooperstown & the Leatherstocking Region Since 1989",
     description:
       "New York Sash has been transforming Central New York homes since 1989 — over 15,000 projects and counting. Our institutional knowledge of local architecture, Otsego County's climate, and the unique demands of custom residential projects is unmatched in the region."
   },
@@ -70,7 +70,7 @@ const standards = [
     title: "Custom-Made to Exact Specifications",
     subtitle: "Never Stock-Sized",
     description:
-      "Every New York Sash window and door is custom-made to your opening’s exact measurements. Our field measurements account for historic settling, out-of-square frames, and original plaster reveals — ensuring a perfect fit the first time.",
+      "Every New York Sash window and door is custom-made to your opening's exact measurements. Our field measurements account for decades of settling, out-of-square frames, and original plaster reveals — ensuring a perfect fit the first time."
   },
   {
     icon: (
