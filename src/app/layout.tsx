@@ -89,6 +89,10 @@ gtag('js', new Date());
 gtag('config', 'G-69QYXR8DBP');`}
         </Script>
         {children}
+        <Script
+          src="https://sash-board-2-0.vercel.app/nys-track.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
